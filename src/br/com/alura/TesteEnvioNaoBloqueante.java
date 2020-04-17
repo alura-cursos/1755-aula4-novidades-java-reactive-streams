@@ -21,11 +21,11 @@ public class TesteEnvioNaoBloqueante {
 		publisher.submit(segundaNotaFiscal);
 		publisher.submit(terceiraNotaFiscal);
 		System.out.println("Você irá receber a nota fiscal no seu e-mail");
-		
+
 		Scanner scan = new Scanner(System.in);
 		scan.nextLine();
 		scan.close();
-		
+
 		publisher.close();
 	}
 

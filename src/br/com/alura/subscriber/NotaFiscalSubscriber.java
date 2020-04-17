@@ -31,6 +31,6 @@ public class NotaFiscalSubscriber implements Subscriber<NotaFiscal> {
 
 	@Override
 	public void onComplete() {
-		System.out.println("Todas as notas foram processadas com sucesso!!");
+		System.out.println("Todas as notas foram emitidas!!");
 	}
 }
